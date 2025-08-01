@@ -1,0 +1,45 @@
+{
+  "name": "ChatLift",
+  "displayName": "ChatLift",
+  "expo": {
+    "name": "ChatLift",
+    "slug": "chatlift",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.chatlift.app"
+    },
+    "android": {
+      "package": "com.chatlift.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "48d097b5-fe6e-4360-81fe-3969d91056b2"
+      }
+    }
+  }
+}
